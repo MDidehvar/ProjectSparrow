@@ -3822,8 +3822,9 @@ body.is-menu-visible #menu {
 }
 
 #one {
-  background: url("../../images/pic184k.jpg") no-repeat center center;
-  background-size: cover;
+  /*background: url("../../images/pic184k.jpg") no-repeat center center;
+  background-size: cover; */
+  background-color: #171c21;
 } 
 
 #one {
