@@ -3893,6 +3893,10 @@ body.is-menu-visible #menu {
 	  margin-left: 0em;
   }
 
+  #banner h2 {
+	  word-spacing: 0.1em;
+  }
+
   #fiveupper {
 	background: url("../../images/pic114k.jpg") no-repeat center center;
 	background-size: cover;
@@ -3917,7 +3921,7 @@ body.is-menu-visible #menu {
   }
 
   #banner h2 {
-    font-size: 1.25em;
+	font-size: 1.25em;
   }
 
   #banner br {
