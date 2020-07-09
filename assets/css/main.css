@@ -3243,7 +3243,7 @@ button:disabled,
 }
 
 .wrapper.style4 {
-  background-color: transparent;
+  background-color: #171c21;
 }
 
 .wrapper.style5 {
@@ -3863,12 +3863,26 @@ body.is-menu-visible #menu {
 	margin: 2rem 0 14rem 0;
   }
 
+  #seven {
+	display: flex;
+    justify-content: center; 
+	text-align: center;
+	margin: 20rem 25% 0rem 25%;
+	width: 50%;
+  }
+
   #six h3 {
 	  padding-top: 6em;
 	  margin-left: 5em;
 	  font-size: 1.75em;
 	  padding-bottom: 0.5em;
   }
+
+  #seven h3 {
+	padding-top: 6em;
+	font-size: 1.75em;
+	padding-bottom: 0.5em;
+}
 
   #six p {
 	  width: 35%;
@@ -3893,6 +3907,8 @@ body.is-menu-visible #menu {
 	  margin-left: 0em;
   }
 
+
+
   #banner h2 {
 	  word-spacing: 0.1em;
   }
@@ -3911,6 +3927,15 @@ body.is-menu-visible #menu {
 	border-top: 3px;
 	border-color: #b8c5d0;
 	border-style: solid;
+  }
+
+  #sevenupper {
+	background: url("../../images/pic124k.jpg") no-repeat center center;
+	background-size: cover;
+	border-top: 3px;
+	border-color: #b8c5d0;
+	border-style: solid;
+	padding-bottom: 10rem;
   }
 
 @media screen and (max-width: 736px) {
