@@ -3577,7 +3577,7 @@ body.is-menu-visible #menu {
   height: 30px;
   font-size: 1px;
   display: inline-block;
-  margin-top: 0px;
+  margin-top: -3px;
 }
 
 #header ul {
