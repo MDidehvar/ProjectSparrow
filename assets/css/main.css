@@ -1859,7 +1859,6 @@ article.special {
 }
 
 header p {
-  color: rgba(255, 255, 255, 0.5);
   position: relative;
   top: -0.25em;
 }
@@ -3427,9 +3426,9 @@ button:disabled,
 /* Page Wrapper + Menu */
 
 #page-wrapper {
-  -moz-transition: opacity 0.5s ease;
-  -webkit-transition: opacity 0.5s ease;
-  -ms-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.0s ease;
+  -webkit-transition: opacity 0.0s ease;
+  -ms-transition: opacity 0.0s ease;
   transition: opacity 0.5s ease;
   opacity: 1;
   padding-top: 3em;
@@ -3568,14 +3567,35 @@ body.is-menu-visible #menu {
   line-height: inherit;
   position: absolute;
   top: 0;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 #header img {
   vertical-align: middle;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   font-size: 1px;
   display: inline-block;
+  margin-top: 0px;
+}
+
+#header ul {
+  display: block ruby;
+  list-style: none;
+  margin-left: 30px;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  -moz-transition: background-color 0.2s ease;
+  -webkit-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+#header li {
+  margin-left: 20px;
 }
 
 #header h1 a {
@@ -3588,6 +3608,24 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 736px) {
   #header h1 a {
     font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #header img {
+    font-size: 0.8em;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #header img {
+    font-size: 0.8em;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
   }
 }
 
@@ -3658,12 +3696,15 @@ body.is-menu-visible #menu {
 }
 
 #header.alt {
-  background: transparent;
+  /*background: transparent;*/
 }
 
 #header.alt h1 {
-  pointer-events: none;
-  opacity: 0;
+  /*opacity: 0;*/
+}
+
+#header.alt li {
+  /*opacity: 0;*/
 }
 
 /* Banner */
@@ -3817,7 +3858,7 @@ body.is-menu-visible #menu {
   -moz-transition-delay: 1.25s;
   -webkit-transition-delay: 1.25s;
   -ms-transition-delay: 1.25s;
-  transition-delay: 1.25s;
+  transition-delay: 0s;
   content: "";
   background: #2e3741;
   display: block;
