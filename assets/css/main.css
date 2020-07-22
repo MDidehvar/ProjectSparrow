@@ -4014,6 +4014,10 @@ body.is-preload #banner:after {
   order: 2;
 }
 
+cta .inner p {
+  margin: auto;
+}
+
 @media screen and (max-width: 980px) {
   #cta .inner {
     display: block;
