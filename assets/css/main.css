@@ -3616,7 +3616,7 @@ body.is-menu-visible #menu {
     font-size: 0.8em;
     width: 30px;
     height: 30px;
-    margin-top: -5px;
+    margin-top: -3px;
   }
 }
 
@@ -3625,7 +3625,7 @@ body.is-menu-visible #menu {
     font-size: 0.8em;
     width: 30px;
     height: 30px;
-    margin-top: -5px;
+    margin-top: -3px;
   }
 }
 
@@ -3990,7 +3990,7 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 736px) {
   #banner {
     padding: 7em 3em 5em 3em;
-    height: auto;
+    /*height: auto;*/
     min-height: 0;
   }
 
