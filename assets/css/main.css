@@ -1873,9 +1873,6 @@ header h6 + p {
   font-size: 0.9em;
 }
 
-header.major {
-}
-
 header.major h2,
 header.major h3,
 header.major h4,
@@ -3259,6 +3256,10 @@ button:disabled,
   background-color: #ffffff;
   color: #4e4852;
   padding-top:6em;
+}
+
+.wrapper.style5 h1 {
+  color: #2e3842;
 }
 
 
