@@ -3258,7 +3258,9 @@ button:disabled,
 .wrapper.style5 {
   background-color: #ffffff;
   color: #4e4852;
+  padding-top:6em;
 }
+
 
 .wrapper.style5 strong,
 .wrapper.style5 b {
@@ -3811,6 +3813,11 @@ body.is-menu-visible #menu {
 
 #banner p a {
   color: inherit;
+}
+
+#footer p {
+  margin-top: 15px;
+  font-size: 14px;
 }
 
 #banner .more {
